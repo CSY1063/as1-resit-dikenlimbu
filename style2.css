@@ -1,0 +1,101 @@
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    text-align: center;
+}
+    
+
+
+nav ul li a {
+    color: blue;
+}
+
+nav ul li a:hover {
+    color: white;
+}
+
+
+p {
+    color: black;
+}
+
+p:hover {
+    color: blue;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 7px;
+}
+
+/* Set the width and height using CSS */
+img {
+    width: 200px;
+    /* Adjust the width as needed */
+    height: 200px;
+    /* Adjust the height as needed */
+    border-radius: 0;
+    /* Makes the photo square */
+    object-fit: cover;
+    /* Ensures the photo covers the area without being stretched */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+body {
+    display: grid;
+}
+
+grid header {
+    background-color: lightblue;
+    color: white;
+    padding: 20px;
+    grid-area: header;
+}
+
+nav {
+    background-color: lightgreen;
+}
+
+grid-area: nav;
+}
+
+nav ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+main {
+    background-color: yellow;
+    color: white;
+}
+
+grid-area: main;
+}
+
+aside {
+    background-color: lightgreen;
+}
+
+footer {
+    background-color: darkgreen;
+    color: white;
+}
+
+.showNav {
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
+}
